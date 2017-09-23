@@ -1,0 +1,11 @@
+#welcome {
+    background: url('/images/info4.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.memePolice{
+	font-style: normal;
+    font-weight: 900;
+    font-size: 2.5em;
+}
