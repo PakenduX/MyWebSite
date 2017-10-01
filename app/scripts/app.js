@@ -34,3 +34,8 @@ angular
         redirectTo: '/acceuil'
       });
   });
+
+function trigger(element) {
+  element.parent().find(".active").removeClass("active");
+  element.addClass("active");
+}

@@ -42,10 +42,10 @@
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#!/acceuil">ACCEUIL</a></li>
-              <li><a ng-href="#!/cv">CV</a></li>
-              <li><a ng-href="#!/astuce">ASTUCES/TUTOS</a></li>
-              <li><a ng-href="#!/apps">APPS/OUTILS</a></li>
+              <li class="active" onclick="trigger($(this));"><a href="#!/acceuil">ACCEUIL</a></li>
+              <li onclick="trigger($(this));"><a ng-href="#!/cv">CV</a></li>
+              <li onclick="trigger($(this));"><a ng-href="#!/astuce">ASTUCES/TUTOS</a></li>
+              <li onclick="trigger($(this));"><a ng-href="#!/apps">APPS/OUTILS</a></li>
             </ul>
           </div>
         </div>
@@ -105,7 +105,6 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="bower_components/d3/d3.js"></script>
     <script src="bower_components/c3/c3.js"></script>
-    <script src="bower_components/angular-chart/angular-chart.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
