@@ -9,6 +9,8 @@
  */
 angular.module('pakenduxApp')
   .controller('CvCtrl', function ($scope) {
+
+      document.getElementById('titre').innerHTML = "Mama-CV";
     	$scope.name = 'Mama DEMBELE';
     	$scope.job = 'Élève-Ingénieur en 3ème année Informatique';
       $scope.school = 'Polytech Marseille';

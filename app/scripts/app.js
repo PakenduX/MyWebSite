@@ -30,6 +30,10 @@ angular
         templateUrl: 'views/cv.html',
         controller: 'CvCtrl',
       })
+      .when('/astuce', {
+        templateUrl: 'views/tuto.html',
+        controller: 'tutoCtrl',
+      })
       .otherwise({
         redirectTo: '/acceuil'
       });

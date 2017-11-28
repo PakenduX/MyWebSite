@@ -9,6 +9,8 @@
  */
 angular.module('pakenduxApp')
   .controller('AcceuilCtrl', function ($scope) {
+
+    document.getElementById('titre').innerHTML = "Mama-Home";
     $scope.myInterval = 1000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
